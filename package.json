@@ -9,10 +9,10 @@
     "prod": "npx vercel deploy --prod"
   },
   "devDependencies": {
-    "h3": "^1.15.4",
-    "nitropack": "^2.12.4"
+    "h3": "^1.15.10",
+    "nitropack": "^2.13.2"
   },
   "dependencies": {
-    "workflow": "^4.0.1-beta.4"
+    "workflow": "^4.2.0-beta.71"
   }
 }
