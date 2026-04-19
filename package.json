@@ -1,6 +1,7 @@
 {
   "name": "use-nitro-workflow",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nitro build",
     "dev": "nitro dev",
@@ -9,8 +10,7 @@
     "prod": "npx vercel deploy --prod"
   },
   "devDependencies": {
-    "h3": "^1.15.10",
-    "nitropack": "^2.13.2"
+    "nitro": "latest"
   },
   "dependencies": {
     "workflow": "^4.2.0-beta.71"
