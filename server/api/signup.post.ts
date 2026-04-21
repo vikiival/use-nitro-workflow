@@ -1,9 +1,9 @@
 import { start } from 'workflow/api';
-import { defineEventHandler, readBody } from 'h3';
+import { defineHandler } from 'nitro';
 import { handleUserSignup } from "../../workflows/signup";
 
-export default defineEventHandler(async (event) => {
-    const { email } = await readBody(event);
+export default defineHandler(async (event) => {
+    const { email } = await event.req.json();
 
     // Executes asynchronously and doesn't block your app
     await start(handleUserSignup, [email]);

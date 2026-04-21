@@ -1,9 +1,9 @@
-import { defineNitroConfig } from "nitropack/config"
+import { defineConfig } from "nitro"
 
 // https://nitro.build/config
-export default defineNitroConfig({
+export default defineConfig({
   compatibilityDate: "latest",
-  srcDir: "server",
+  serverDir: "server",
   imports: false,
   modules: ["workflow/nitro"],
 });
