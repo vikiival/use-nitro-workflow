@@ -10,6 +10,7 @@
     "prod": "npx vercel deploy --prod"
   },
   "dependencies": {
+    "@opentelemetry/api": "^1.9.1",
     "workflow": "^4.5.0"
   },
   "devDependencies": {

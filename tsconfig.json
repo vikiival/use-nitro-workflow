@@ -23,7 +23,6 @@
     // "noUnusedParameters": true,
 
      // Libs & paths
-    "lib": ["ESNext", "DOM"],
-    "baseUrl": ".",
+    "lib": ["ESNext", "DOM"]
   }
 }
