@@ -6,4 +6,7 @@ export default defineConfig({
   serverDir: "server",
   imports: false,
   modules: ["workflow/nitro"],
+  rollupConfig: {
+    external: ["@opentelemetry/api"],
+  },
 });
